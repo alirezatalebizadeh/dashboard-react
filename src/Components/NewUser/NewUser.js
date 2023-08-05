@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function NewUser() {
-  return <div>new user</div>;
+  return <h1>new user</h1>;
 }
