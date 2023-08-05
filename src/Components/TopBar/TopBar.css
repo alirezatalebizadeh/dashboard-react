@@ -1,0 +1,45 @@
+.topBar {
+  position: fixed;
+  background-color: #fff;
+  width: 100vw;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topBar__right {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.topBar-iconContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.topIcon__Badge {
+  position: absolute;
+  top: -10px;
+  left: -5px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  border-radius: 20px;
+}
+
+.topBar__left {
+  color: rgba(0, 0, 0, 0.803);
+  font-weight: 900;
+}
+.tapBar__logo {
+}
+
+.imgLogo {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
