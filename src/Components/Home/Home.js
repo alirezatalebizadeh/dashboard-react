@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="home">
       <Feature />
-      
+
       <Chart grid title="Month Sale" data={xAxiosData} dataKey="Sale" />
     </div>
   );
