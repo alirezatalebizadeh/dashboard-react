@@ -1,5 +1,10 @@
 import React from "react";
+import Feature from "./Futures/Feature";
 
 export default function Home() {
-  return <h1>home</h1>;
+  return (
+    <>
+      <Feature />
+    </>
+  );
 }

@@ -1,0 +1,44 @@
+.features {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FeatureItem {
+  flex: 1;
+  margin: 0 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 15px -5px rgba(0, 0, 0, 0.8);
+  height: 170px;
+}
+.featureItem__title {
+  font-size: 1.1rem;
+}
+.featureItem__container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.feature__Money {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.feature__Rate {
+  display: flex;
+  align-items: center;
+  margin-left: 1.2rem;
+}
+.feature__icon {
+  font-size: 0.9rem;
+  color: green;
+  margin-left: 5px;
+}
+.feature__icon.negative {
+  color: red;
+}
+.featureItem__sub {
+  font-size: 1rem;
+  color: gray;
+}
