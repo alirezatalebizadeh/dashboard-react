@@ -1,4 +1,4 @@
-  const xAxiosData = [
+const xAxiosData = [
   {
     "name": 'Jan',
     "Sale": 112000,
@@ -49,7 +49,7 @@
   },
 ];
 
- const newMembers = [
+const newMembers = [
   {
     id: 1,
     userName: 'Alireza Talebizadeh',
@@ -88,4 +88,55 @@
   },
 ]
 
-export { xAxiosData, newMembers };
+const Transaction = [
+  {
+    id: 1,
+    customer: 'Alireza Naseri',
+    date: '12 jan 2023',
+    amount: 125,
+    status: 'Pending',
+    img: 'logo192.png'
+  },
+  {
+    id: 2,
+    customer: 'Alireza Naseri',
+    date: '12 jan 2023',
+    amount: 125,
+    status: 'Declined',
+    img: 'logo192.png'
+  },
+  {
+    id: 3,
+    customer: 'Alireza Naseri',
+    date: '12 jan 2023',
+    amount: 125,
+    status: 'Declined',
+    img: 'logo192.png'
+  },
+  {
+    id: 4,
+    customer: 'Alireza Naseri',
+    date: '12 jan 2023',
+    amount: 125,
+    status: 'Pending',
+    img: 'logo192.png'
+  },
+  {
+    id: 5,
+    customer: 'Alireza Naseri',
+    date: '12 jan 2023',
+    amount: 125,
+    status: 'Approved',
+    img: 'logo192.png'
+  },
+  {
+    id: 6,
+    customer: 'Alireza Naseri',
+    date: '12 jan 2023',
+    amount: 125,
+    status: 'Declined',
+    img: 'logo192.png'
+  },
+]
+
+export { xAxiosData, newMembers, Transaction };

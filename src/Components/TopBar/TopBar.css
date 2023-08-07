@@ -1,12 +1,15 @@
 .topBar {
   position: sticky;
   top: 0;
+  left: 0;
+  right: 0;
   background-color: #fff;
   width: 100vw;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
 }
 
 .topBar__right {

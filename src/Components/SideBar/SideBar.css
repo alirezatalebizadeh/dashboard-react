@@ -1,9 +1,10 @@
 .sideBar {
   flex: 1;
   position: sticky;
+  top: 60px;
   left: 0;
   bottom: 0;
-  max-height: calc(100vh - 60px);
+  max-height: calc(100vh - 90px);
   padding: 10px 20px;
   border-right: 2px solid rgba(0, 0, 0, 0.24);
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import Visibility from "@mui/icons-material/Visibility";
-import {newMembers} from './../../../Data/datas'
+import { newMembers } from './../../../Data/datas'
 import './widgetSm.css'
 
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import './WidgetLg.css'
-import { Button } from '@mui/material'
-
+import { Transaction } from './../../../Data/datas'
 
 
 
@@ -18,7 +17,6 @@ export default function WidgetLg() {
         return <button className={'widgetButton' + type}>{type}</button>
     }
 
-
     return (
         <div className='widgetLg'>
             <h3 className='widgetLg__Title'>Latest TransActions </h3>
@@ -29,18 +27,23 @@ export default function WidgetLg() {
                     <th className='widgetLg__Th'>Amount</th>
                     <th className='widgetLg__Th'>Status</th>
                 </tr>
-                <tr className='widgetLg__Tr'>
-                    <td className='widgetLg__User'>
-                        <span className='widget__Name'>Alireza</span>
-                        <img className='widget__Img' src='logo192.png' alt='widgetImg' />
-                    </td>
-                    <td className='widgetLg__Date'>Date</td>
-                    <td className='widgetLg__Amount'>Amount</td>
-                    <td className='widgetLg__td'>Status</td>
-                    <td>
-                        <Button />
-                    </td>
-                </tr>
+                {
+                    Transaction.map(user => (
+                        <tr className='widgetLg__Tr'>
+                            <td className='widgetLg__User'>
+                                <span className='widget__Name'>{user.customer}</span>
+                                <img className='widget__Img' src={user.img} alt='widgetImg' />
+                            </td>
+                            <td className='widgetLg__Date'>{user.date}</td>
+                            <td className='widgetLg__Amount'>{user.amount}</td>
+                            <td className='widgetLg__td'>{user.status}</td>
+                            <td>
+                                <Button type={user.type} />
+                            </td>
+                        </tr>
+                    ))
+                }
+
             </table>
         </div>
     )

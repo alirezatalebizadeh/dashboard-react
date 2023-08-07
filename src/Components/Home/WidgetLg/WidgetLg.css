@@ -14,7 +14,6 @@
   border-spacing: 20px;
 }
 
-
 .widgetLg__Th {
   text-align: left;
 }
@@ -42,21 +41,22 @@
   object-fit: cover;
 }
 
-.widgetLg__button {
+.widgetButton {
   padding: 5px 7px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
-.widgetButton__Declined {
+.widgetButtonDeclined {
   background-color: #ebf1f1;
   color: #d95087;
 }
-.widgetButton__Approved {
+.widgetButtonApproved {
   background-color: #ebf1f1;
   color: #3bb077;
 }
-.widgetButton__pending {
+.widgetButtonPending {
   background-color: #ebf1f1;
   color: #2a7ade;
 }
