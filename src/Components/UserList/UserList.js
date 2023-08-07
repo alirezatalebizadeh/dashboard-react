@@ -3,7 +3,7 @@ import { userRows } from './../../Data/datas'
 import { DataGrid } from '@mui/x-data-grid';
 import { Link } from 'react-router-dom'
 import DeleteIcon from '@mui/icons-material/Delete'; import './UserList.css'
-
+import './UserList.css'
 //use datagrid from mui to show data in library
 
 

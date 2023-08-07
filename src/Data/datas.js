@@ -182,4 +182,43 @@ const userRows = [
   },
 ]
 
-export { xAxiosData, newMembers, Transaction, userRows };
+const products = [
+  {
+    id: 1,
+    title: 'Del',
+    price: '192000',
+    avatar: 'logo192.png'
+  },
+  {
+    id: 2,
+    title: 'Asus',
+    price: '192000',
+    avatar: 'logo192.png'
+  },
+  {
+    id: 3,
+    title: 'Del',
+    price: '95000',
+    avatar: 'logo192.png'
+  },
+  {
+    id: 4,
+    title: 'HP',
+    price: '125000',
+    avatar: 'logo192.png'
+  },
+  {
+    id: 5,
+    title: 'Del',
+    price: '192000',
+    avatar: 'logo192.png'
+  },
+  {
+    id: 6,
+    title: 'Asus',
+    price: '198000',
+    avatar: 'logo192.png'
+  },
+]
+
+export { xAxiosData, newMembers, Transaction, userRows,products };
