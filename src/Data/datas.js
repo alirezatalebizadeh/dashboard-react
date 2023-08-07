@@ -1,4 +1,4 @@
-export  let xAxiosData = [
+  const xAxiosData = [
   {
     "name": 'Jan',
     "Sale": 112000,
@@ -49,7 +49,7 @@ export  let xAxiosData = [
   },
 ];
 
-export let newMembers = [
+ const newMembers = [
   {
     id: 1,
     userName: 'Alireza Talebizadeh',
@@ -88,4 +88,4 @@ export let newMembers = [
   },
 ]
 
-// export { xAxiosData, newMembers };
+export { xAxiosData, newMembers };
