@@ -88,4 +88,4 @@ let newMembers = [
   },
 ]
 
-export default { xAxiosData, newMembers };
+export default  {xAxiosData ,newMembers};
