@@ -8,8 +8,8 @@ let routes = [
   { path: "/", element: <Home /> },
   { path: "/newUser", element: <NewUser /> },
   { path: "/products", element: <Products /> },
-  { path: "/users", element: <UserList /> },
   { path: "/product/:productID", element: <Product /> },
+  { path: "/users", element: <UserList /> },
 ];
 
 export default routes;
