@@ -1,0 +1,50 @@
+.widgetSm {
+  display: flex;
+  padding: 20px;
+  margin-right: 20px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.widgetSm__Title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.widgetSm__List {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.widgetSm__List__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.widgetSm__Img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.widgetSmUser {
+  display: flex;
+  flex-direction: column;
+}
+.widgetSmUser__name {
+  font-weight: 600;
+}
+.widgetSmUser__title {
+  font-weight: 300;
+}
+.WidgetSm__Button {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  cursor: pointer;
+}
+.WidgetSmIcon {
+  font-size: 15px !important;
+}

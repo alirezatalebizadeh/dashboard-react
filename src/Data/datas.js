@@ -49,4 +49,43 @@ let xAxiosData = [
   },
 ];
 
-export default xAxiosData;
+let newMembers = [
+  {
+    id: 1,
+    userName: 'Alireza Talebizadeh',
+    title: 'Web Developer',
+    img: 'logo192.png'
+  },
+  {
+    id: 2,
+    userName: 'Alireza Talebizadeh',
+    title: 'Web Developer',
+    img: 'logo192.png'
+  },
+  {
+    id: 3,
+    userName: 'Alireza Talebizadeh',
+    title: 'Web Developer',
+    img: 'logo192.png'
+  },
+  {
+    id: 4,
+    userName: 'Alireza Talebizadeh',
+    title: 'Web Developer',
+    img: 'logo192.png'
+  },
+  {
+    id: 5,
+    userName: 'Alireza Talebizadeh',
+    title: 'Web Developer',
+    img: 'logo192.png'
+  },
+  {
+    id: 6,
+    userName: 'Alireza Talebizadeh',
+    title: 'Web Developer',
+    img: 'logo192.png'
+  },
+]
+
+export default { xAxiosData, newMembers };
