@@ -11,6 +11,8 @@ import {
   Area,
   CartesianGrid,
 } from "recharts";
+
+
 export default function Chart({ title, data, dataKey, grid }) {
   //! get data to create and show chart
   return (

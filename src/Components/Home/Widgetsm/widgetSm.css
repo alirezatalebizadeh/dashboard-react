@@ -1,13 +1,14 @@
 .widgetSm {
   display: flex;
+  flex-direction: column;
   padding: 20px;
   margin-right: 20px;
+  width: 100%;
   box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
 }
 .widgetSm__Title {
   font-size: 1.2rem;
   font-weight: 600;
-  text-align: center;
 }
 .widgetSm__List {
   margin: 0;

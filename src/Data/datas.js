@@ -1,4 +1,4 @@
-let xAxiosData = [
+export  let xAxiosData = [
   {
     "name": 'Jan',
     "Sale": 112000,
@@ -49,7 +49,7 @@ let xAxiosData = [
   },
 ];
 
-let newMembers = [
+export let newMembers = [
   {
     id: 1,
     userName: 'Alireza Talebizadeh',
@@ -88,4 +88,4 @@ let newMembers = [
   },
 ]
 
-export default  {xAxiosData ,newMembers};
+// export { xAxiosData, newMembers };
