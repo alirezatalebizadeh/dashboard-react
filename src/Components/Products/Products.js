@@ -26,7 +26,7 @@ export default function Products() {
       width: 200,
       renderCell: (params) => {
         return (
-          <Link to={`/products/${params.row.id}`} className="link">
+          <Link to={`/product/${params.row.id}`} className="link">
             <div className="userListUser">
               <img src={params.row.avatar} alt='avatar' className="userListImg" />
               {params.row.title}
@@ -48,7 +48,7 @@ export default function Products() {
       renderCell: (params) => {
         return (
           <>
-            <Link to={`/products/${params.row.id}`} className="link">
+            <Link to={`/product/${params.row.id}`} className="link">
               <button className="userListEdit">Edit</button>
             </Link>
             <DeleteIcon
@@ -77,7 +77,7 @@ export default function Products() {
         rows={productDatas}
         columns={columns}
         // ! to show count of user in one page
-        pageSize={3}
+        pageSizeOptions={3}
         disableRowSelectionOnClick
       >
 

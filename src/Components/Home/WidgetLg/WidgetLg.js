@@ -11,6 +11,8 @@ import { Transaction } from './../../../Data/datas'
 
 
 
+
+
 export default function WidgetLg() {
 
     const Button = ({ type }) => {
@@ -29,7 +31,7 @@ export default function WidgetLg() {
                 </tr>
                 {
                     Transaction.map(user => (
-                        <tr className='widgetLg__Tr'>
+                        <tr className='widgetLg__Tr' key={user.id}>
                             <td className='widgetLg__User'>
                                 <span className='widget__Name'>{user.customer}</span>
                                 <img className='widget__Img' src={user.img} alt='widgetImg' />

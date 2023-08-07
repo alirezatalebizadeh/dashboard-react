@@ -12,7 +12,7 @@ export default function widgetSm() {
             <ul className='widgetSm__List'>
                 {
                     newMembers.map(member => (
-                        <li className='widgetSm__List__item'>
+                        <li key={member.id} className='widgetSm__List__item'>
                             <img src={member.img} alt='widgetImg' className='widgetSm__Img' />
                             <div className='widgetSmUser'>
                                 <span className='widgetSmUser__name'>{member.userName}</span>
