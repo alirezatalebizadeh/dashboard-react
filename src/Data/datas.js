@@ -224,11 +224,11 @@ const products = [
 const productDatas = [
   {
     name: 'Jan',
-    sales: 4000
+    sales: 14000
   },
   {
     name: 'Feb',
-    sales: 12000
+    sales: 1000
   },
   {
     name: 'Mars',

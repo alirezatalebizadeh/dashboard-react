@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Chart from './../../Home/Chart/Chart'
 import { products, productDatas } from './../../../Data/datas'
+import PublishIcon from "@mui/icons-material/Publish";
 import './Product.css'
 
 
@@ -12,6 +13,7 @@ export default function Product() {
 
     const [data, setData] = useState(products)
     const [detailProduct, setDetailProduct] = useState([])
+    const [showFile, setShowFile] = useState('none')
 
     let params = useParams()
 
@@ -75,6 +77,41 @@ export default function Product() {
                 </div>
             </div>
 
+            <div className='productBottom'>
+                <form className='product__form'>
+
+                    <div className='productForm__left'>
+                        <lable>Product Name</lable>
+                        <input placeholder='Dell Laptop' type='text' />
+
+                        <label htmlFor='inStoke'>In Stoke</label>
+                        <select id='inStoke'>
+                            <option value='yes'>Yes</option>
+                            <option value='no'>No</option>
+                        </select>
+
+                        <label htmlFor='active'>Active</label>
+                        <select id='active'>
+                            <option value='yes'>Yes</option>
+                            <option value='no'>No</option>
+                        </select>
+                    </div>
+
+                    <div className='productForm__right'>
+
+                        <div className='productUploader'>
+                            <img src='/logo192.png' alt='profile photo' className='productUploaderImg' />
+                            <label>
+                                <PublishIcon onClick={() => setShowFile('block')} />
+                            </label>
+                            <input type='file' style={{ display: `${showFile}` }} />
+                        </div>
+
+                        <button className='productButton'>Upload (Edit)</button>
+
+                    </div>
+                </form>
+            </div>
 
         </div>
     )
