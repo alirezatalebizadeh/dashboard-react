@@ -58,11 +58,11 @@ export default function SideBar() {
               <AttachMoneyIcon className="sideBar__Icon" /> Products
             </li>
           </Link>
-          <Link to="/product/:productID" className="link">
+          {/* <Link to="/product/:productID" className="link">
             <li className="SidebarList__item">
               <AttachMoneyIcon className="sideBar__Icon" /> AddProduct
             </li>
-          </Link>
+          </Link> */}
           <Link className="link">
             <li className="SidebarList__item">
               <BarChartIcon className="sideBar__Icon" /> Transactions

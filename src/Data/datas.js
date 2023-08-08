@@ -221,4 +221,19 @@ const products = [
   },
 ]
 
-export { xAxiosData, newMembers, Transaction, userRows,products };
+const productDatas = [
+  {
+    name: 'Jan',
+    sales: 4000
+  },
+  {
+    name: 'Feb',
+    sales: 12000
+  },
+  {
+    name: 'Mars',
+    sales: 8000
+  }
+]
+
+export { xAxiosData, newMembers, Transaction, userRows, products ,productDatas};
