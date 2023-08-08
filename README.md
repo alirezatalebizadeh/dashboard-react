@@ -10,4 +10,3 @@ npm i react-icons
 npm i react-router-dom
 npm i reCharts
 
-![Alt text](template1.JPG)
