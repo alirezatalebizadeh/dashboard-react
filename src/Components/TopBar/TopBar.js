@@ -3,6 +3,8 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import SettingsIcon from "@mui/icons-material/Settings";
 import LanguageIcon from "@mui/icons-material/Language";
 import "./TopBar.css";
+
+
 export default function TopBar() {
   return (
     <div className="topBar">

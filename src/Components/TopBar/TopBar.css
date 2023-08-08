@@ -4,7 +4,6 @@
   left: 0;
   right: 0;
   background-color: #fff;
-  width: 100vw;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -39,6 +38,7 @@
   color: rgba(0, 0, 0, 0.803);
   font-weight: 900;
 }
+
 .tapBar__logo {
   font-size: 1.2rem;
 }
