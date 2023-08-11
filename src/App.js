@@ -12,7 +12,9 @@ function App() {
       <TopBar />
       <div className="container">
         <SideBar />
-        {router}
+        <div className="right__section">
+          {router}
+        </div>
       </div>
     </>
   );

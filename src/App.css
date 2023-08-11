@@ -6,9 +6,13 @@
 
 .container {
   display: flex;
+  margin: 0;
 }
 
 .link {
   text-decoration: none;
   color: inherit;
+}
+.right__section {
+  flex: 5;
 }

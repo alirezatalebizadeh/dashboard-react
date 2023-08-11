@@ -2,7 +2,7 @@ import React from "react";
 import Feature from "./Futures/Feature";
 import "./Home.css";
 import Chart from "./Chart/Chart";
-import {xAxiosData} from "../../Data/datas";
+import { xAxiosData } from "../../Data/datas";
 import WidgetSm from "./Widgetsm/WidgetSm";
 import WidgetLg from "./WidgetLg/WidgetLg";
 export default function Home() {
