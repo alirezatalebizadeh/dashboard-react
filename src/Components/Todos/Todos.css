@@ -1,0 +1,22 @@
+.boxTodos {
+  flex: 5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+}
+.nav__pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.page-item {
+  margin: 0 2px;
+}
