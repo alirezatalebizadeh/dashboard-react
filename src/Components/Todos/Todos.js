@@ -21,7 +21,7 @@ export default function Todos() {
 
     //! pageSize ==> count of box in one page
     //! array.from()==> مقادیرش رو خودس مقدار دهی میکنه
-    let pageSize = 6;
+    let pageSize = 5;
     let pageNumbers;
 
     useEffect(() => {
@@ -55,8 +55,8 @@ export default function Todos() {
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={post.image} className='card-img' />
                         <Card.Body>
-                            <Card.Title>{post.title}</Card.Title>
-                            <Card.Text>
+                            <Card.Title className='txt_me'>{post.title}</Card.Title>
+                            <Card.Text >
                                 Some quick example text to build on the card title and make up the
                                 bulk of the card's content.
                             </Card.Text>

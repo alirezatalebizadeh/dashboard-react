@@ -32,7 +32,7 @@ export default function SideBar() {
           </Link>
           <Link className="link" to='/todos'>
             <li className="SidebarList__item">
-              <TimelineIcon className="sideBar__Icon" /> Analyses
+              <TimelineIcon className="sideBar__Icon" /> shops
             </li>
           </Link>
           <Link className="link">
