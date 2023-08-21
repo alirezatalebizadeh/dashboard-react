@@ -12,7 +12,7 @@ export default function Menu({ allMenus }) {
                 {
                     allMenus.map(menu => (
                         <article className="menu-item">
-                            <img src={menu.img} className="photo" />
+                            <img loading='lazy' src={menu.img} className="photo" />
                             <div className="item-info">
                                 <header>
                                     <h4>{menu.title}</h4>
