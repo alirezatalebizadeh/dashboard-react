@@ -18,3 +18,4 @@ npm i reCharts
 ![template4](https://github.com/alirezatalebizadeh/dashboard-react/assets/104105725/b527ff2f-968e-4dad-bb20-4fed675a8f69)
 ![menus](https://github.com/alirezatalebizadeh/dashboard-react/assets/104105725/a3300acb-3efd-4e76-a0f9-14da54f7909e)
 
+![post](https://github.com/alirezatalebizadeh/dashboard-react/assets/104105725/bf71a849-7433-4887-9acb-9f7b67ef22e8)
