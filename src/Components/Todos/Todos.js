@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { AllPost } from '../../Data/datas'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Pagination from 'react-bootstrap/Pagination';
 
 import './Todos.css'
 
