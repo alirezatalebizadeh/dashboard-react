@@ -6,13 +6,24 @@
 
 .container {
   display: flex;
+<<<<<<< HEAD
   margin: 0;
+=======
+  max-width: 1200px;
+  margin: 0 auto;
+>>>>>>> 386d9d940ea682288f06bf9448dd490572775af6
 }
 
 .link {
   text-decoration: none;
   color: inherit;
 }
+<<<<<<< HEAD
 .right__section {
   flex: 5;
 }
+=======
+
+
+
+>>>>>>> 386d9d940ea682288f06bf9448dd490572775af6

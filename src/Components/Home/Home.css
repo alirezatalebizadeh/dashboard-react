@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 
+=======
+.home {
+  flex: 6;
+}
+>>>>>>> 386d9d940ea682288f06bf9448dd490572775af6
 
 .homeWidgets {
   display: flex;

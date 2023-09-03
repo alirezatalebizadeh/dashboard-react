@@ -12,6 +12,11 @@ import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import ReportIcon from "@mui/icons-material/Report";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
+
+
+
+
 
 import "./SideBar.css";
 export default function SideBar() {
@@ -27,7 +32,7 @@ export default function SideBar() {
           </Link>
           <Link className="link" to='/todos'>
             <li className="SidebarList__item">
-              <TimelineIcon className="sideBar__Icon" /> Analyses
+              <TimelineIcon className="sideBar__Icon" /> shops
             </li>
           </Link>
           <Link className="link">
@@ -75,9 +80,9 @@ export default function SideBar() {
       <div className="sideBar__menu">
         <h3 className="sidebar__title">Notifications</h3>
         <ul className="sidebar__list">
-          <Link className="link">
+          <Link to='/menus' className="link">
             <li className="SidebarList__item">
-              <MailOutlineIcon className="sideBar__Icon" /> Mail
+              <RestaurantMenuIcon className="sideBar__Icon" /> Menus
             </li>
           </Link>
           <Link className="link">
